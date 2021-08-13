@@ -41,7 +41,7 @@ body .hero2 {
 }
 
 body .hero3 {
-  background-image: url(img/teletronix.jpg);
+  background-image: url(img/varios.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -51,6 +51,15 @@ body .hero3 {
 
 body .hero4 {
   background-image: url(img/discos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hero5 {
+  background-image: url(img/equipos_3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -100,6 +109,7 @@ h1 {
 h2 {
   font-size: 2.8rem;
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h3 {
@@ -334,11 +344,12 @@ p {
 
 .texto__buenosAires {
   font-size: 1.8rem;
+  font-family: "Krub", sans-serif;
 }
 
 .titulo__servicios {
   font-size: 3.5rem;
-  font-family: fantasy;
+  font-family: "Krub", sans-serif;
 }
 
 .boton {
@@ -371,6 +382,20 @@ p {
           column-gap: 1rem;
 }
 
+.bd-navbar {
+  min-height: 5rem;
+}
+
+a.nav-link {
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a.navbar-brand {
+  font-size: 2.6rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 @media only screen and (max-width: 768px) {
   .navegacion-principal {
     display: -webkit-box;
@@ -394,7 +419,7 @@ p {
             flex-direction: column;
   }
   .formulario {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   .formulario .contenedor-campos {
