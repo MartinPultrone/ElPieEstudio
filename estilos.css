@@ -144,6 +144,10 @@ p {
 }
 
 /* titulos */
+h2.titulo__servicios {
+  color: #ffffff;
+}
+
 .contenido-hero {
   position: absolute;
   width: 100%;
